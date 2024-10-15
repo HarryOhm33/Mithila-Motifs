@@ -1,0 +1,182 @@
+.show_1 {
+  margin: 4rem 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.show_1-left {
+  text-align: center;
+}
+
+.show_1-left h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: chocolate;
+}
+
+.show_1-left h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.show_1-left h3 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.show_1-right {
+  width: 40rem;
+  border-radius: 1.25rem !important;
+  border: 0.25rem solid chocolate;
+}
+
+.show_1-right div {
+  width: 39.5rem;
+  border-radius: 1rem !important;
+}
+
+.show_1-right img {
+  width: 40rem;
+  border-radius: 1rem;
+}
+
+.show_2 {
+  margin: 3rem 3rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.show_2-left {
+  max-width: 30rem;
+}
+
+.show_2-left img {
+  width: 25rem;
+  border-radius: 1rem;
+}
+
+.show_2-right {
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.show_2-right h1 {
+  font-weight: 700;
+  font-size: 2.75rem;
+  color: tomato;
+  text-decoration: underline dashed;
+}
+
+.show_2-right p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.show_products {
+  margin: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.show_products i {
+  color: yellowgreen;
+}
+
+.show_products h3 {
+  font-size: 1.4rem;
+  align-self: flex-start;
+  color: tomato;
+  font-weight: 600;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.product {
+  background-color: cornsilk;
+  height: 15rem;
+  width: 11rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  transition: 0.2s;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.product:hover {
+  scale: 1.08;
+  cursor: pointer;
+}
+
+.show_products button {
+  height: 3rem;
+  width: 7.5rem;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.4s;
+}
+
+.show_products button i {
+  color: black;
+}
+
+.show_products button:hover {
+  width: 8rem;
+  gap: 1rem;
+}
+
+.show_about {
+  margin: 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.show_about-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.show_about-left h1 {
+  font-weight: 700;
+  font-size: 2.75rem;
+  color: tomato;
+  text-decoration: underline dashed;
+}
+
+.show_about-left p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.show_about-right img {
+  width: 25rem;
+  border-radius: 1rem;
+}
